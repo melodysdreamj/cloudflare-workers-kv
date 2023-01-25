@@ -37,7 +37,7 @@ function CloudFlareWorkersKV(options) {
 
     const get = async (keyOfValue, opts) => {
 
-        console.log(key)
+        // console.log(key)
 
         const instance = axios.create({
             baseURL: 'https://api.cloudflare.com/client/v4/accounts/',
@@ -49,10 +49,10 @@ function CloudFlareWorkersKV(options) {
 
         try {
             var _ = await instance.get(`${accountId}/storage/kv/namespaces/${namespaceId}/values/${keyOfValue}`)
-            console.log(_.data)
+            // console.log(_.data)
             return _.data
         } catch (e) {
-            console.log(e)
+            // console.log(e)
             return undefined
         }
 
