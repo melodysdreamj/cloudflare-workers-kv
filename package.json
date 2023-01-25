@@ -4,17 +4,13 @@
   "homepage": "https://github.com/melodysdreamj/cloudflare-workers-kv",
   "version": "1.0.0",
   "main": "src/index.js",
-  "author": {
-    "email": "melodysdreamj@gmail.com",
-    "name": "june lee",
-    "url": "https://junelee.fun/"
-  },
+  "author": "june lee <melodysdreamj@gmail.com> (https://junelee.fun/)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kikobeats/cloudflare-workers-kv.git"
+    "url": "git+https://github.com/melodysdreamj/cloudflare-workers-kv"
   },
   "bugs": {
-    "url": "https://github.com/Kikobeats/cloudflare-workers-kv/issues"
+    "url": "https://github.com/melodysdreamj/cloudflare-workers-kv/issues"
   },
   "keywords": [
     "cache",
@@ -88,5 +84,8 @@
   "simple-git-hooks": {
     "commit-msg": "npx commitlint --edit",
     "pre-commit": "npx nano-staged"
+  },
+  "directories": {
+    "test": "test"
   }
 }
